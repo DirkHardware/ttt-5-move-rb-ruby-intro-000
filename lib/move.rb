@@ -10,7 +10,7 @@ def input_to_index
   display_board(board)
   puts "Welcome to Tic Tac Toe!"
   puts "Where would you like to go?"
-  user_input = gets.strip
+  user_input .to_i
   space = user_input - 1
   space .to_i
   board[space] = X
