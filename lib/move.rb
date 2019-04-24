@@ -19,6 +19,4 @@ def input_to_index
   puts "#{user_input}"
 end
 
-input_to_index
-
 # code your input_to_index and move method here!
