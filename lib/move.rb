@@ -6,4 +6,14 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+def input_to_index
+  display_board(board)
+  puts "Welcome to Tic Tac Toe!"
+  puts "Where would you like to go?"
+  input = gets.strip
+  space = input - 1
+  board[space] = X
+  display_board(board)
+end
+
 # code your input_to_index and move method here!
