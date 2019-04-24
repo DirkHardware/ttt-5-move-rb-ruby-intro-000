@@ -11,7 +11,7 @@ def input_to_index
   puts "Where would you like to go?"
   user_input = gets.strip
   user_input .to_i
-  user_input -= 1
+  user_input = user_input - 1
   # space = user_input - 1
   # space .to_i
   # board[space] = X
