@@ -12,6 +12,7 @@ def input_to_index
   puts "Where would you like to go?"
   input = gets.strip
   space = input - 1
+  space .to_i
   board[space] = X
   display_board(board)
 end
