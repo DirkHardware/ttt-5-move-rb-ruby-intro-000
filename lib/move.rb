@@ -1,5 +1,3 @@
-
-
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -13,7 +11,7 @@ def input_to_index
   puts "Where would you like to go?"
   user_input = gets.strip
   user_input .to_i
-  space = user_input -= 1
+  user_input -= 1
   # space = user_input - 1
   # space .to_i
   # board[space] = X
