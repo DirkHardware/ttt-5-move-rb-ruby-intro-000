@@ -10,13 +10,13 @@ def input_to_index
   puts "Welcome to Tic Tac Toe!"
   puts "Where would you like to go?"
   user_input = gets.strip
-  user_input .to_i
-  user_input -= 1
+  # user_input .to_i
+  # user_input -= 1
   # space = user_input - 1
   # space .to_i
   # board[space] = X
   # display_board(board)
-  puts "#{space}"
+  puts "#{user_input}"
 end
 
 input_to_index
