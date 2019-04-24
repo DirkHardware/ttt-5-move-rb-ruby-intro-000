@@ -13,10 +13,11 @@ def input_to_index
   puts "Where would you like to go?"
   user_input = gets.strip
   user_input .to_i
-  space = user_input - 1
-  space .to_i
-  board[space] = X
-  display_board(board)
+  # space = user_input - 1
+  # space .to_i
+  # board[space] = X
+  # display_board(board)
+  gets "#{user_input}"
 end
 
 # code your input_to_index and move method here!
